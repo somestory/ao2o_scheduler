@@ -11,7 +11,7 @@ from mysql.connector import errorcode
 from database.mysql import Mysql
 from database.mssql import Mssql
 
-# ao2o DB 정보
+# ao2o DB 정보 (실제 정보로 변경할 것)
 config_ao2o = {
     'host': '127.0.0.1',
     'port': '3306',
@@ -21,7 +21,7 @@ config_ao2o = {
     'raise_on_warnings': True,
 }
 
-# fc_master DB 정보
+# fc_master DB 정보 (실제 정보로 변경할 것)
 config_fc_master = {
     'server': '127.0.0.1',
     'port': '1433',
